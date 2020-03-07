@@ -63,14 +63,10 @@ plugins:
 # Customization
 extra:
   social:
-    - type: globe
-      link: http://struct.cc
     - type: github-alt
-      link: https://github.com/squidfunk
-    - type: twitter
-      link: https://twitter.com/squidfunk
+      link: https://github.com/BracketMaster
     - type: linkedin
-      link: https://www.linkedin.com/in/squidfunk/
+      link: https://www.linkedin.com/in/yehowshua-immanuel/
 
 # Extensions
 markdown_extensions:
