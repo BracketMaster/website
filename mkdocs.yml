@@ -1,0 +1,174 @@
+# Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to
+# deal in the Software without restriction, including without limitation the
+# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+# sell copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+# IN THE SOFTWARE.
+
+# Project information
+site_name: planet program
+site_description: another hardware blog
+site_author: Yehowshua Immanuel
+site_url: https://yehowshuaimmanuel.com/
+
+# Copyright
+copyright: 'Copyright &copy; 2016 - 2020 Yehowshua Immanuel'
+
+# Configuration
+theme:
+  name: null
+  custom_dir: material
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  feature:
+    tabs: true
+  palette:
+    primary: orange
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/images/favicon.png
+  logo:
+    icon: "videogame_asset"
+
+# Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+# Customization
+extra:
+  social:
+    - type: globe
+      link: http://struct.cc
+    - type: github-alt
+      link: https://github.com/squidfunk
+    - type: twitter
+      link: https://twitter.com/squidfunk
+    - type: linkedin
+      link: https://www.linkedin.com/in/squidfunk/
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+
+# Page tree
+nav:
+  - home: 
+    - home: index.md
+    - about me: about.md
+    - my setup: 
+      - hardware: my_setup/hardware.md
+      - software: my_setup/software.md
+  - hardware hacking:
+    - getting started: fpga/index.md
+    - FOSS intro to VHDL: fpga/vhdl/getting_started_with_vhdl.md
+    - fpga fun: #index.md
+      - hdl wars: fpga/hdl_wars.md
+      - migen:
+        - why migen: fpga/migen/why_migen.md
+        - ethernet on ECP5: fpga/migen/ethernet_ecp5.md
+      - verilator:
+        - why verilator: fpga/verilator/why_verilator.md
+        - some notes on verilator: fpga/verilator/some_notes_on_verilator.md
+        - verilator as a nMigen Python backend: fpga/verilator/dpi.md
+    - vintage tech projects:
+      - hacking old tech: Vintage_Tech/index.md
+      - my classic mac: 
+        - acquisition and ideas: Vintage_Tech/My_Mac_SE.md
+      - gt retrotech:
+        - my setup: Vintage_Tech/retrotech/my_setup.md
+        - first steps: Vintage_Tech/retrotech/first_steps.md
+        - la bus inpection: Vintage_Tech/retrotech/la_inspection.md
+        - why an fpga?: Vintage_Tech/retrotech/why_an_fpga.md
+        - crt smoke test: Vintage_Tech/retrotech/crt_smoke_test.md
+        - fpga logic analyzer: Vintage_Tech/retrotech/fpga_logic_analyzer.md
+  - mathematics:
+    - loss function gradient derivation: mathematics/loss_function_gradient_derivation.md
+    - goodbye matlab, hello python with emag examples: mathematics/EMAG_HW3/EMAG_HW3.md
+    - Matlab's very real problems: mathematics/matlabs_very_real_problems.md
+  - blog:
+      - looking to the future: computing_culture/intro.md
+      - thoughts on open source: computing_culture/on_open_source.md
+  - bible notes:
+    - Ezekiel:
+      - Chapter 3: Bible/Ezekiel/3.md
+      - Chapter 13: Bible/Ezekiel/13.md
+    - Matthew:
+      - Chapter 4: Bible/Matthew/4.md
+      - Chapter 13: Bible/Matthew/13.md
+    - John:
+      - Chapter 15: Bible/John/15.md
+      - Chapter 17: Bible/John/17.md
+    - Romans:
+      - Chapter 1: Bible/Romans/1.md
+      - Chapter 3: Bible/Romans/3.md
+      - Chapter 4: Bible/Romans/4.md
+      - Chapter 6: Bible/Romans/6.md
+    - Peter:
+      - Chapter 1: Bible/Peter/1.md
+      - Chapter 5: Bible/Peter/5.md
+    - 2 Peter:
+      - Chapter 2: Bible/2_Peter/2.md
+      - Chapter 3: Bible/2_Peter/3.md
+    - Revelation:
+      - Chapter 1: Bible/Revelation/5.md
+
+
+# Google Analytics
+google_analytics: ['UA-144903341-1', 'yehowshuaimmanuel.com']
