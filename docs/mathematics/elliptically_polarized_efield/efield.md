@@ -16,8 +16,9 @@ $$E_y = E_{y0}\cos(\omega t - k_z z + \phi)$$
 
 Evaluating $\phi$ on $[0, 2\pi]$ changes the e-field
 from linear to circular polarization.
-Also notice that this field is uniform throughout $R^3$, that is,
-the e-field vector does not depend on $(x,y)$.
+Also notice that this field is uniform throughout on an arbitrary plane,
+$Z = c$, where c is an arbitrary constant.
+In other words, the e-field vector does not depend on $(x,y)$.
 
 ## Assumptions...
 
@@ -73,7 +74,7 @@ $$z = [0, 2 \pi]$$
 $$\phi = 0$$
 
 Remember that this particular e-field formulation is independent of $(x,y)$,
-being uniform throughout $R^3$ as noted earlier.
+as noted earlier.
 That is, we could just as easily have chosen $x=y=3$.
 
 
