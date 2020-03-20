@@ -134,7 +134,7 @@ nav:
         - crt smoke test: Vintage_Tech/retrotech/crt_smoke_test.md
         - fpga logic analyzer: Vintage_Tech/retrotech/fpga_logic_analyzer.md
   - mathematics:
-    - "Ellipsoid with a=b minor Axis Intersection Invariant Proof Sketch": mathematics/ellipsoid_indicatrix.md
+    - "Ellipsoid with a=c minor Axis Intersection Invariant Proof Sketch": mathematics/ellipsoid_indicatrix/ellipsoid_indicatrix.md
     - "Describing 3d Meshes by Example: Python+JS": mathematics/cube_mesh/cube_mesh.md
     - elliptically polarized electric field: mathematics/elliptically_polarized_efield/efield.md
     - loss function gradient derivation: mathematics/loss_function_gradient_derivation.md
