@@ -1,8 +1,8 @@
 # Welcome to Planet Program
 
-<img  src="scroll_of_truth.jpg" width="400">
-
 I wonder if I would say I'm primarily a programmer. I wrote my first program when I was seven and have been programming on and off ever since. That said, software is very important to what I do, but at the end of the day, its still a tool that makes other activities I enjoy that much easier. 
+
+<img  src="scroll_of_truth.jpg" width="400">
 
 Some incarnation of this website began when I was an undergrad mainly to help me keep track of projects I did in the past such as [reverse enginneering the MacSE 1987]. It still serves that function; hence its current name. But it finds other uses such as helping document interesting artifacts of programmer culture. Enjoy!
 
