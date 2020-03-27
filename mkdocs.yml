@@ -140,7 +140,8 @@ nav:
     - loss function gradient derivation: mathematics/loss_function_gradient_derivation.md
     - goodbye matlab, hello python with emag examples: mathematics/EMAG_HW3/EMAG_HW3.md
     - Matlab's very real problems: mathematics/matlabs_very_real_problems.md
-  - blog:
+  - software/misc:
+      - rolling your own homebrew tap and bottle: computing_culture/custom_homebrew/cutsom_homebrew.md
       - looking to the future: computing_culture/intro.md
       - thoughts on open source: computing_culture/on_open_source.md
   - bible notes:
