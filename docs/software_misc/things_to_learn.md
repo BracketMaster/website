@@ -18,6 +18,8 @@ Here is a list of useful things I'd like to come back to in the future.
  - Complete reading and transcription of Applied Electromagnetics Lectures
  - Rational for wave energy propagating at group velocity - [Princeton](http://www.hep.princeton.edu/~mcdonald/examples/groupvelocity.pdf)
  - Derivation of polarization tensor in birefringent materials - [Fowles](http://www.fulviofrisone.com/attachments/article/404/Introduction%20to%20Modern%20Optics.pdf)
+ - Optical Rotation for chiral molecules with dipole moments - derive behavior 
+ with quantum mechanics wave function evolution [^1]
 
 ## Mathematics
   - Memorize chain rule derivation
@@ -26,3 +28,5 @@ Here is a list of useful things I'd like to come back to in the future.
   - Lie Algebras and Topologies
   - Sets and Groups
   - Complex Contour Integration
+
+[^1]: https://physics.stackexchange.com/questions/350094/optical-activity-and-quantum-mechanics
