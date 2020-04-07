@@ -1,6 +1,9 @@
 # Welcome to Planet Program
 
-I wonder if I would say I'm primarily a programmer. I wrote my first program when I was seven and have been programming on and off ever since. That said, software is very important to what I do, but at the end of the day, its still a tool that makes other activities I enjoy that much easier. 
+I'd like to think that I'm a good programmer and an OK [mathematician](mathematics/ellipsoid_indicatrix/ellipsoid_indicatrix). 
+I took advanced math classes in high school to impress some cute girl, but ended up falling in love with math instead... Go figure...
+
+I wrote my first program when I was seven and have been programming on and off ever since. That said, software is very important to what I do, but at the end of the day, its still a tool that makes other activities I enjoy that much easier. 
 
 <img  src="scroll_of_truth.jpg" width="400">
 
