@@ -5,23 +5,32 @@ I took advanced math classes in high school to impress some cute girl, but ended
 
 I wrote my first program when I was seven and have been programming on and off ever since. That said, software is very important to what I do, but at the end of the day, its still a tool that makes other activities I enjoy that much easier. 
 
-<img  src="scroll_of_truth.jpg" width="400">
-
 Some incarnation of this website began when I was an undergrad mainly to help me keep track of projects I did in the past such as [reverse enginneering the MacSE 1987]. It still serves that function; hence its current name. But it finds other uses such as helping document interesting artifacts of programmer culture. Enjoy!
 
 ## Recent Phenonmena
-### verilator backend for nMigen
-I have been working on adding a verilator backend to nMigen-HDL Pythonthat is almost ready.
-More information on that effort [here].
+### New Company!
 
-nMigen is a high level HDL quite similar to [Chisel] but width the advantages of:
+ - Started a new processor design [startup](https://chipeleven.com)
 
-1. No simulator boilerplate and easy support for multiple clock domains
-2. Implmented in Python. This means no slow SBT compile times or doing the SBT package manager dance. Pip just works.
-3. I also find Python idiosms much more simple/useful/natural than Scala's
+### New Film!
 
-I offer a more in depth comparison of various HDLs and their problems
-[here](fpga/hdl_wars.md).
+ - Filmed and directed a promo video for a really
+ cool startup called Gatherly that facilitates
+ large online gatherings!!
+   - [Gatherly Video](https://www.youtube.com/watch?v=NJMwwuDtj88&feature=youtu.be)
+   - [Gatherly Website](https://gatherly.io)
+
+### Mathematics...
+
+Not much new here.
+
+I unfortunately don't have as much time as I used
+to for studying emag or quantum physics. 
+
+If you have a cool math problem you think I could 
+solve, let me know!
+
+I'm also down to work on cool small film projects!
 
 ### recent new-old tech acquisition
 One of my youth pastors/mentors recently gave me his MacSE 1987!
