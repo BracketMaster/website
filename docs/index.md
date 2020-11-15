@@ -10,7 +10,7 @@ Some incarnation of this website began when I was an undergrad mainly to help me
 ## Recent Phenonmena
 ### New Company!
 
- - Started a new processor design [startup](https://chipeleven.com)
+ - Joined a new processor design [startup](https://chipeleven.com)
 
 ### New Film!
 
