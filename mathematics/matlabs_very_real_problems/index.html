@@ -33,18 +33,18 @@
 
 <span class=o>&gt;&gt;</span> <span class=n>a</span><span class=p>(</span><span class=mi>1</span><span class=p>,</span><span class=mi>1</span><span class=p>)</span>
 
-<span class=nb>ans</span> <span class=p>=</span>
+<span class=n>ans</span> <span class=p>=</span>
 
      <span class=n>1</span>
 
-<span class=s>&gt;&gt;</span> <span class=s>a(1,2)</span>
+<span class=o>&gt;&gt;</span> <span class=n>a</span><span class=p>(</span><span class=mi>1</span><span class=p>,</span><span class=mi>2</span><span class=p>)</span>
 
-<span class=nb>ans</span> <span class=p>=</span>
+<span class=n>ans</span> <span class=p>=</span>
 
      <span class=n>2</span>
 </code></pre></div> <p>Ok... So we use parentheses to index into array elements. So, what if we want to get the size of array a, does Matlab return the result to me as an array?</p> <p>If so - I should be able to index into elements of that array right?</p> <p><div class=codehilite><pre><span></span><code><span class=o>&gt;&gt;</span> <span class=nb>size</span><span class=p>(</span><span class=n>a</span><span class=p>)</span>
 
-<span class=nb>ans</span> <span class=p>=</span>
+<span class=n>ans</span> <span class=p>=</span>
 
      <span class=n>2</span>     <span class=s>4</span>
 
@@ -59,7 +59,7 @@
 
 <span class=o>&gt;&gt;</span> <span class=n>my_size</span><span class=p>(</span><span class=mi>1</span><span class=p>)</span>
 
-<span class=nb>ans</span> <span class=p>=</span>
+<span class=n>ans</span> <span class=p>=</span>
 
      <span class=n>2</span>
 </code></pre></div> <h1 id=i-thought-you-said-that-wasnt-possible>I Thought You Said that Wasn't Possible...<a class=headerlink href=#i-thought-you-said-that-wasnt-possible title="Permanent link">&para;</a></h1> <p>So yes - it is possible - otherwise many of Mathwork's <em>engineers</em> would have a fit(it turns out to be quite important to be able determine matrix dimensions in Linear Algebra).</p> <p>So what's the problem here? <code class=codehilite><span class=err>size(a)(1)</span></code> <em>should</em> work. Basically, it boils down to the sad fact that Matlab has a spaghetti implementation of a type system.</p> <p>Similar idiosyncrasies plague the implementation of Matlab's classes, import behaviors and more.</p> <h1 id=python-syntax-just-easier-as-expected>Python Syntax - just easier as expected...<a class=headerlink href=#python-syntax-just-easier-as-expected title="Permanent link">&para;</a></h1> <p><div class=codehilite><pre><span></span><code><span class=o>&gt;&gt;&gt;</span> <span class=kn>from</span> <span class=nn>numpy</span> <span class=kn>import</span> <span class=n>array</span>
